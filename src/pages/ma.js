@@ -6,7 +6,7 @@ const MAPage = () => {
   return (
     <div>
       <h1>
-        Massachusetts. 
+        Massachusetts
       </h1>
       <StateInformation>
 </StateInformation>

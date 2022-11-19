@@ -6,7 +6,7 @@ const NYPage = () => {
   return (
     <div>
       <h1>
-        New York. 
+        Texas
       </h1>
       <StateInformation>
 </StateInformation>

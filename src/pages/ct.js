@@ -6,7 +6,7 @@ const CTPage = () => {
   return (
     <div>
       <h1>
-        Connecticut. 
+        Connecticut
       </h1>
       <StateInformation>
 </StateInformation>

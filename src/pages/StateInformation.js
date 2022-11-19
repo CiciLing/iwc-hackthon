@@ -7,7 +7,7 @@ function StateInformation() {
     <DropdownButton id="dropdown-basic-button" title="Choose Your State">
       <Dropdown.Item href="./ct">Connecticut</Dropdown.Item>
       <Dropdown.Item href="./ma">Massachusetts</Dropdown.Item>
-      <Dropdown.Item href="./ny">New York</Dropdown.Item>
+      <Dropdown.Item href="./ny">Texas</Dropdown.Item>
     </DropdownButton>
   );
 }

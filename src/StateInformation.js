@@ -12,5 +12,5 @@ function StateInformation() {
   );
 }
 
-export default StateInformaation;
+export default StateInformation;
 

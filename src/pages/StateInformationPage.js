@@ -5,7 +5,7 @@ const StateInformationPage = () => {
   return (
     <div>
       <h1>
-        Look-Up By State. 
+        Look-Up By State 
       </h1>
       <StateInformation>
 </StateInformation>

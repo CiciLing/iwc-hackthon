@@ -1,7 +1,13 @@
 body {
-  background-color: #282c34;
+  background-color: #DCAEA9;
   color: white;
   padding: 1px;
   font-family: "Lucida Console", monospace;
   text-align: center;
+}
+
+h2.question {
+  text-align: left;
+  margin-top: 110mm;
+  margin-left: 10%;
 }

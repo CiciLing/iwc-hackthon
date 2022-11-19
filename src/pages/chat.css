@@ -11,8 +11,17 @@ h2.question {
   margin-left: 10%;
 }
 
-p.q1{
+p{
+  margin-top: 5mm;
   font-weight: bold;
   color:black
+}
+
+p.answer{
+  color:white;
+}
+
+h1.title{
+  font-weight: bold;
 }
 

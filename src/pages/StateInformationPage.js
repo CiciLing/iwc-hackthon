@@ -1,5 +1,5 @@
 import React from 'react';
-import StateInformation from './StateInformation.js'
+import StateInformation from '../StateInformation.js'
   
 const StateInformationPage = () => {
   return (

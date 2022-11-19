@@ -2,28 +2,26 @@ import React from 'react';
 import StateInformation from '../StateInformation.js'
 import Card from 'react-bootstrap/Card';
   
-const NYPage = () => {
+const CTPage = () => {
   return (
     <div>
       <h1>
-        New York. 
+        Connecticut. 
       </h1>
       <StateInformation>
 </StateInformation>
-<Card style={{ width: '22rem' }}>
+<Card  style = {{display: 'flex'}}>
       <Card.Img variant="top" src="https://digitalfreedomfund.org/wp-content/uploads/2021/03/reproductive-rights-pink-bg-1536x864.jpg" />
       <Card.Body>
         <Card.Title>Abortion Status:</Card.Title>
         <Card.Text>
-          Abortion is no longer available in this state. 
-          Patients have no access to abortion in this state due to 
-          restrictions that have banned or eliminated abortion access. 
+        Abortion Law Status: PROTECTED
+        Abortion remains legal in Connecticut! 
         </Card.Text>
         <Card.Link href="#">Click Here to Learn More.</Card.Link>
       </Card.Body>
     </Card>
-    
-    <Card style={{ width: '22rem' }}>
+    <Card >
       <Card.Img variant="top" src="https://digitalfreedomfund.org/wp-content/uploads/2021/03/reproductive-rights-pink-bg-1536x864.jpg" />
       <Card.Body>
         <Card.Title>Abortion Protections:</Card.Title>
@@ -35,12 +33,25 @@ const NYPage = () => {
            <ul> 5. Interstate Shield</ul>
            <ul> 6. Statutory protections for abortion </ul>
         </Card.Text>
-        <Card.Link href="https://reproductiverights.org/maps/abortion-laws-by-state/?state=NY">Click Here to Learn More.</Card.Link>
+        <Card.Link href="https://reproductiverights.org/maps/abortion-laws-by-state/?state=CT">Click Here to Learn More.</Card.Link>
+      </Card.Body>
+    </Card>
+    <Card >
+      <Card.Img variant="top" src="https://digitalfreedomfund.org/wp-content/uploads/2021/03/reproductive-rights-pink-bg-1536x864.jpg" />
+      <Card.Body>
+        <Card.Title>Restrictions: </Card.Title>
+        <Card.Text>
+        <li>Abortion is restricted at twenty-four weeks and more with a gestational ban.
+</li>
+<li>Parental consent is required for patients who are 16 years and younger.
+</li>
+        </Card.Text>
+        <Card.Link href="https://reproductiverights.org/maps/abortion-laws-by-state/?state=CT">Click Here to Learn More.</Card.Link>
       </Card.Body>
     </Card>
       </div>
   );
 };
   
-export default NYPage;
+export default CTPage;
 

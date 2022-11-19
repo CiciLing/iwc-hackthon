@@ -12,7 +12,6 @@ import NYPage from './pages/ny';
 import HomePage from './pages/home';
 import YourRightsPage from './pages/your-rights';
 import StateInformationPage from './pages/StateInformationPage';
-import './styles.scss';
 
 
 function App() {

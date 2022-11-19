@@ -5,9 +5,9 @@ import DropdownButton from 'react-bootstrap/DropdownButton';
 function StateInformation() {
   return (
     <DropdownButton id="dropdown-basic-button" title="Choose Your State">
-      <Dropdown.Item href="#/action-1">Connecticut</Dropdown.Item>
-      <Dropdown.Item href="#/action-2">Massachusetts</Dropdown.Item>
-      <Dropdown.Item href="#/action-3">New York</Dropdown.Item>
+      <Dropdown.Item href=".pages/ct.js">Connecticut</Dropdown.Item>
+      <Dropdown.Item href=".pages/ma.js">Massachusetts</Dropdown.Item>
+      <Dropdown.Item href=".pages/nyc.js">New York</Dropdown.Item>
     </DropdownButton>
   );
 }

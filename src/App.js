@@ -7,6 +7,7 @@ import { BrowserRouter as Router, Routes, Route}
 import Rights from './pages/rights';
 import Chat from './pages/chat';
 import StateInformationPage from './pages/StateInformationPage';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 
 function App() {

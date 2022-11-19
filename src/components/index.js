@@ -1,5 +1,5 @@
 import React from "react";
-import { Nav, NavLink, NavMenu }
+import { Nav, NavLink, NavMenu}
     from "./NavBarelements";
 // commit
 const Navbar = () => {
@@ -7,7 +7,7 @@ const Navbar = () => {
     <>
       <Nav>
         <NavMenu>
-          <NavLink to="/forum" activeStyle>
+          <NavLink to="/chat" activeStyle>
             Forum
           </NavLink>
           <NavLink to="/rights" activeStyle>

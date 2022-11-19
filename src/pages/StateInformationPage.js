@@ -1,11 +1,12 @@
 import React from 'react';
 import StateInformation from '../StateInformation.js'
+import Card from 'react-bootstrap/Card';
   
 const StateInformationPage = () => {
   return (
     <div>
       <h1>
-        Choose Your State to get more Information On Reproductive Rights in that Area. 
+        Look-Up By State. 
       </h1>
       <StateInformation>
 </StateInformation>

@@ -10,7 +10,8 @@ import CTPage from './pages/ct';
 import MAPage from './pages/ma';
 import NYPage from './pages/ny';
 import StateInformationPage from './pages/StateInformationPage';
-import 'bootstrap/dist/css/bootstrap.min.css';
+import './styles.scss';
+
 
 function App() {
 return (

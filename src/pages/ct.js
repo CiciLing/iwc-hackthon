@@ -10,7 +10,7 @@ const CTPage = () => {
       </h1>
       <StateInformation>
 </StateInformation>
-<Card  style = {{display: 'flex'}}>
+<Card>
       <Card.Img variant="top" src="https://digitalfreedomfund.org/wp-content/uploads/2021/03/reproductive-rights-pink-bg-1536x864.jpg" />
       <Card.Body>
         <Card.Title>Abortion Status:</Card.Title>

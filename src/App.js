@@ -9,6 +9,8 @@ import Chat from './pages/chat';
 import CTPage from './pages/ct';
 import MAPage from './pages/ma';
 import NYPage from './pages/ny';
+import HomePage from './pages/home';
+import YourRightsPage from './pages/your-rights';
 import StateInformationPage from './pages/StateInformationPage';
 import './styles.scss';
 
@@ -25,6 +27,8 @@ return (
         <Route path='/ny' element={<NYPage/>} />
         <Route path='/ma' element={<MAPage/>} />
         <Route path='/ct' element={<CTPage/>} />
+        <Route path='/home' element={<HomePage/>} />
+        <Route path='/your-rights' element={<YourRightsPage/>} />
     </Routes>
     </Router>
 );

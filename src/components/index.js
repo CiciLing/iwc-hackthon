@@ -13,6 +13,9 @@ const Navbar = () => {
           <NavLink to="/rights" activeStyle>
             Rights
           </NavLink>
+          <NavLink to="/StateInformationPage" activeStyle>
+            State Information
+          </NavLink>
         </NavMenu>
       </Nav>
     </>

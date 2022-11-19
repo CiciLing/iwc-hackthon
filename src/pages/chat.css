@@ -8,6 +8,15 @@ body {
 
 h2.question {
   text-align: left;
-  margin-top: 110mm;
+  margin-left: 10%;
+}
+
+p.q1{
+  font-weight: bold;
+  color:black
+}
+
+p.A1{
+  inline-size: 80%;
   margin-left: 10%;
 }

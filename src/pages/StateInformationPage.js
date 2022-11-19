@@ -1,6 +1,5 @@
 import React from 'react';
 import StateInformation from '../StateInformation.js'
-import Card from 'react-bootstrap/Card';
   
 const StateInformationPage = () => {
   return (

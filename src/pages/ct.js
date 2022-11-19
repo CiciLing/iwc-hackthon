@@ -6,7 +6,7 @@ const CTPage = () => {
   return (
     <div>
       <h1>
-        Look-Up By State. 
+        Connecticut. 
       </h1>
       <StateInformation>
 </StateInformation>

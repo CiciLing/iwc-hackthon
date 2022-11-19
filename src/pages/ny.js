@@ -2,11 +2,11 @@ import React from 'react';
 import StateInformation from '../StateInformation.js'
 import Card from 'react-bootstrap/Card';
   
-const MAPage = () => {
+const NYPage = () => {
   return (
     <div>
       <h1>
-        Massachusetts. 
+        New York. 
       </h1>
       <StateInformation>
 </StateInformation>
@@ -26,5 +26,5 @@ const MAPage = () => {
   );
 };
   
-export default MAPage;
+export default NYPage;
 

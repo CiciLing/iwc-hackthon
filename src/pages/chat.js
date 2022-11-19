@@ -1,6 +1,7 @@
 // commit
 import React from 'react';
-
+import { Nav, NavLink, NavMenu }
+    from "./NavBarelements";
 
 const Chat = () => {
   return (

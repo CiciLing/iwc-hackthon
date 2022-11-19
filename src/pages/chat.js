@@ -2,19 +2,6 @@ import './chat.css';
 import React, { useState, useRef } from 'react';
 import Button from 'react-bootstrap/Button';
 import Overlay from 'react-bootstrap/Overlay';
-import {render} from "@testing-library/react";
-
-const Chat = () => {
-  return (
-    <div className="chatsinforum">
-      <h1 class='title'>Forum and FAQ</h1>
-        <p class='q1'>
-            I’m from Texas where the abortion ban is unprotected, where do I go to find an abortion?
-        </p>
-
-    </div>
-  );
-};
 
 function Example() {
   const [show, setShow] = useState(false);
@@ -38,7 +25,7 @@ function Example() {
               ...props.style,
             }}
           >
-              <p className='A1'>
+              <p>
                   It is completely legal to travel outside your state to get an abortion — just make sure you understand
                   that
                   state’s policies and abortion limitations before scheduling an appointment. A good resource to look
@@ -55,7 +42,22 @@ function Example() {
   );
 }
 
-render(<Example />);
+const Chat = () => {
+  return (
+    <div className="chatsinforum">
+      <h1 class='title'>Forum and FAQ</h1>
+        <p class='q1'>
+            I’m from Texas where the abortion ban is unprotected, where do I go to find an abortion?
+        </p>
+        <Example />
+    </div>
+  );
+
+};
+
+
+
+
 
 
 export default Chat;
